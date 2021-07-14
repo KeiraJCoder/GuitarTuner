@@ -1,0 +1,98 @@
+
+body {
+  overflow: hidden;
+}
+
+div#image {
+  position:fixed;
+  background-attachment: fixed;
+  float: left;
+  /* vertical-align: middle; */
+  margin-left: 35%;
+  /* padding-top:5% ; */
+  size:50%;
+}
+
+
+div#eString1 {
+  width: 3px; /* string width */
+  background-color: #e4e4c0; /* string color */
+  height: 100%;
+  position:relative;
+  float: left;
+  margin-left: 902.1px;
+  margin-top: 50%;
+
+}
+
+div#aString {
+  width: 3px; 
+  background-color: #e4e4c0; 
+  position:relative;
+  float: left;
+  margin-left: 18.5px;
+
+}
+
+div#dString {
+
+  width: 3px; 
+  background-color: #e4e4c0; 
+  float: left;
+  cursor: pointer;
+  margin-left: 19px;
+
+}
+
+div#gString {
+  width: 3px; 
+  background-color: #e4e4c0; 
+  float: left;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+div#bString {
+  width: 3px; 
+  background-color: #e4e4c0; 
+  float: left;
+  cursor: pointer;
+  margin-left: 19px;
+
+}
+
+div#eString {
+  width: 3px; 
+  background-color: #e4e4c0; 
+  float: left;
+  cursor: pointer;
+  margin-left: 20px;
+
+}
+
+
+div#eString1:hover {
+  background-color: #ff0000
+}
+
+div#aString:hover {
+  background-color: #ff0000
+}
+
+div#dString:hover {
+  background-color: #ff0000
+}
+
+div#gString:hover {
+  background-color: #ff0000
+}
+
+div#bString:hover {
+  background-color: #ff0000
+}
+
+div#eString:hover {
+  background-color: #ff0000
+}
+
