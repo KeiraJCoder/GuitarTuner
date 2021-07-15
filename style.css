@@ -1,98 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
 
 body {
+  background-image: url('neck2-small.jpg');
+  background-repeat: no-repeat; 
+}
+
+
+@media only screen and (min-device-width: 400px) {
+  body { 
+      background-image: url('neck2.jpg'); 
+      background-repeat: no-repeat; 
+}
+
+h1 {
+  position: flex;
+  font-size: 2rem;
+  color: #000000;
+  font-family: 'Tourney', cursive;
+  margin-left: 30%;
+  margin-top: 0%;
+text-shadow: 1px 0 #ffffff;
+}
+
+
+body {
+  position: flex;
+  background-image: url('Yamaha-FG800-2.jpg');
+  background-position: center top;     
+  background-repeat: no-repeat;
+  background-size:inherit;
   overflow: hidden;
 }
 
-div#image {
-  position:fixed;
-  background-attachment: fixed;
-  float: left;
-  /* vertical-align: middle; */
-  margin-left: 35%;
-  /* padding-top:5% ; */
-  size:50%;
-}
-
-
-div#eString1 {
-  width: 3px; /* string width */
-  background-color: #e4e4c0; /* string color */
-  height: 100%;
-  position:relative;
-  float: left;
-  margin-left: 902.1px;
-  margin-top: 50%;
+.strings {
+  position: fixed;
+  width: 400px;
+  height: 200px;
+  top: 89%;
+  right: 33.4%;
+  padding-left: 2%;
 
 }
 
-div#aString {
-  width: 3px; 
-  background-color: #e4e4c0; 
-  position:relative;
-  float: left;
-  margin-left: 18.5px;
-
+.position {
+  position: absolute;
+  top: 200%;
+  right: 700%;
+  width: 20px;
+  height: 10x;
 }
 
-div#dString {
-
-  width: 3px; 
-  background-color: #e4e4c0; 
-  float: left;
-  cursor: pointer;
-  margin-left: 19px;
-
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
 }
-
-div#gString {
-  width: 3px; 
-  background-color: #e4e4c0; 
-  float: left;
-  cursor: pointer;
-  margin-left: 20px;
-
 }
-
-div#bString {
-  width: 3px; 
-  background-color: #e4e4c0; 
-  float: left;
-  cursor: pointer;
-  margin-left: 19px;
-
-}
-
-div#eString {
-  width: 3px; 
-  background-color: #e4e4c0; 
-  float: left;
-  cursor: pointer;
-  margin-left: 20px;
-
-}
-
-
-div#eString1:hover {
-  background-color: #ff0000
-}
-
-div#aString:hover {
-  background-color: #ff0000
-}
-
-div#dString:hover {
-  background-color: #ff0000
-}
-
-div#gString:hover {
-  background-color: #ff0000
-}
-
-div#bString:hover {
-  background-color: #ff0000
-}
-
-div#eString:hover {
-  background-color: #ff0000
-}
-
