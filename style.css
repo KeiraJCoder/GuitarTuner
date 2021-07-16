@@ -14,11 +14,11 @@ body {
 
 h1 {
   position: flex;
-  font-size: 2rem;
+  font-size: 10% auto;
   color: #000000;
   font-family: 'Tourney', cursive;
-  margin-left: 30%;
-  margin-top: 0%;
+  margin-left: 30% auto;
+  margin-top: 0% auto;
 text-shadow: 1px 0 #ffffff;
 }
 
