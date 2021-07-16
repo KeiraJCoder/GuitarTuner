@@ -34,10 +34,10 @@ body {
 
 .strings {
   position: fixed;
-  width: 400px;
-  height: 200px;
-  top: 89%;
-  right: 33.4%;
+  width: 400px auto;
+  height: 200px auto;
+  top: 89% auto;
+  right: 33.4% auto;
   padding-left: 2% auto;
 
 }
