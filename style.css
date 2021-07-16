@@ -38,16 +38,16 @@ body {
   height: 200px;
   top: 89%;
   right: 33.4%;
-  padding-left: 2%;
+  padding-left: 2% auto;
 
 }
 
 .position {
   position: absolute;
-  top: 200%;
-  right: 700%;
-  width: 20px;
-  height: 10x;
+  top: 200% auto;
+  right: 700% auto;
+  width: 20px auto;
+  height: 10x auto;
 }
 
 .pressed {
