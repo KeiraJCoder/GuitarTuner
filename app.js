@@ -1,14 +1,14 @@
-// Wyłowałanie dziwięku od wcisnięcia klawisza
+
 document.addEventListener("keydown", function(event) {
     console.log(event.key);
     makeSound(event.key);
     animate(event.key);
   });
   
-  //Pobranie przycisku
+
   let button = document.getElementsByClassName("string");
   
-  // Funkcja wywołująca dziwiek po kliknięciu myszką
+ 
   for (let i = 0; i <= button.length; i++) {
     button[i].addEventListener("click", function() {
       let buttonInnerHTML = this.innerHTML;
@@ -20,23 +20,23 @@ document.addEventListener("keydown", function(event) {
 
 function makeSound(key) {
     switch (key) {
-      case "e":
+      case "E":
         let eString = new Audio("https://github.com/KeiraJCoder/GuitarTuner/blob/main/E.mp3?raw=true");
         eString.play();
         break;
-      case "a":
+      case "A":
         let aString = new Audio("https://github.com/KeiraJCoder/GuitarTuner/blob/main/A.mp3?raw=true");
         aString.play();
         break;
-      case "d":
+      case "D":
         let dString = new Audio("https://github.com/KeiraJCoder/GuitarTuner/blob/main/D.mp3?raw=true");
         dString.play();
         break;
-      case "g":
+      case "G":
         let gString = new Audio("https://github.com/KeiraJCoder/GuitarTuner/blob/main/G.mp3?raw=true");
         gString.play();
         break;
-      case "b":
+      case "B":
         let bString = new Audio("https://github.com/KeiraJCoder/GuitarTuner/blob/main/B.mp3?raw=true");
         bString.play();
         break;
@@ -49,6 +49,14 @@ function makeSound(key) {
         break;
     }
   }
+
+  function animate(key) {
+    let activeButton = document.querySelector("." + key);
+    activeButton.classList.toggle("pressed");
+  
+    setTimeout(function(){activeButton.classList.toggle("pressed");}, 200);
+  }
+  
 
   function animate(key) {
     let activeButton = document.querySelector("." + key);

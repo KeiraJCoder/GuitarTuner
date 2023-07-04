@@ -1,57 +1,117 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@200&display=swap');
+*{
+  box-sizing: border-box;
+
+}
 
 body {
-  background-image: url('neck2-small.jpg');
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding-top:107px; */
+}
+.image { 
+  background-image: url('Yamaha-FG800-2.jpg'); 
   background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-position: center 107px;
+  background-size: contain;
+  background-origin: inherit;
 }
 
-
-@media only screen and (min-device-width: 400px) {
-  body { 
-      background-image: url('neck2.jpg'); 
-      background-repeat: no-repeat; 
-}
-
-h1 {
-  position: flex;
-  font-size: 10% auto;
+.title {
+  /* margin-top:-110px; */
+  text-align: center;
+  font-size: 2vw;
   color: #000000;
   font-family: 'Tourney', cursive;
-  margin-left: 30% auto;
-  margin-top: 0% auto;
-text-shadow: 1px 0 #ffffff;
+  text-shadow: 1px 0 #9500db;
+  height: 107px;
 }
 
-
-body {
-  position: flex;
-  background-image: url('Yamaha-FG800-2.jpg');
-  background-position: center top;     
-  background-repeat: no-repeat;
-  background-size:inherit;
-  overflow: hidden;
+.box {
+  margin-top: 138px;
+  border: 0px rgb(255, 255, 255) solid;
+  width: 427px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.strings {
-  position: fixed;
-  width: 400px auto;
-  height: 200px auto;
-  top: 89% auto;
-  right: 33.4% auto;
-  padding-left: 2% auto;
-
+.inner{
+  display: flex;
+  justify-content: space-between;
 }
 
-.position {
-  position: absolute;
-  top: 200% auto;
-  right: 700% auto;
-  width: 20px auto;
-  height: 10x auto;
+.string {
+  font-size:20px;
+  
+}
+
+/* 
+.position1 {
+  display:flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  position:fixed;
+
+   
+}
+ 
+.position2 {
+  display:flex;
+  flex-direction:column;
+  flex-wrap: nowrap;
+  position:fixed;
+} 
+
+#E {
+  position:fixed;
+  margin-top:8vh;
+  margin-left:49vw;
+  padding:11px;  
+}
+
+#A {
+  position:fixed;
+  margin-top:51px;
+  margin-top:220px;
+  margin-left:490px;
+  padding:10px; 
+}
+
+#D {
+  position:fixed;
+  margin-top:350px;
+  margin-left:490px;
+  padding:10px;
+}
+
+#G {
+  position:fixed;
+  margin-top:80px;
+  margin-left:890px;
+  padding:11px;  
+}
+
+#B {
+  position:fixed;
+  margin-top:51px;
+  margin-top:220px;
+  margin-left:890px;
+  padding:10px; 
+}
+
+ #e2 {
+  position:fixed;
+  margin-top:45%;
+  margin-left:61%;
+  padding:10px;
 }
 
 .pressed {
   box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
-}
-}
+} */
+
